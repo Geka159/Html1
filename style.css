@@ -1,0 +1,19 @@
+*{ /* Глобальное обращение ко всем тегам*/
+color: black;
+font-size: 14px;
+
+}
+
+
+
+body {
+background: red;
+color: white;
+}
+p{ font-size: 25px; }
+h1 { color: red; }
+h2 { color: orange; }
+h3 { color: yellow; }
+h4 { color: green; }
+h5 { color: blue; }
+h6 { color: #f08080; }
