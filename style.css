@@ -1,18 +1,41 @@
-*{ /* Глобальное обращение ко всем тегам*/
-color: black;
-font-size: 14px;
 
-}
 /*оформление меню */
 #menu1{
-
+width: auto;
+display: block;
+margin: 0 auto 0px;
+}
+header {
+background: #DCDCDC;
+border-bottom: 4px solid #FFAB51;
+margin: 0px;
+padding: 0px;
 }
 #menu1 ul{
 list-style: none;
     display: flex;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0;
     }
-#menu1 ul li{}
-#menu1 ul li a{}
+#menu1 ul li{
+width: 75px;
+height: 30px;
+font-size: 18px;
+border-right: 4px solid #FFAB51;
+background: #DCDCDC;
+/*text-align: center; /*Горизонтальное положение */
+/*vertical-align: middle; /*вертикальное положение */
+transition: 0.5s;
+margin: 0;
+display: inline-block;
+}
+#menu1 ul li:hover{
+background: #A9A9A9;
+}
+#menu1 ul li a{
+text-decoration: none;
+}
 
 
 
@@ -22,6 +45,8 @@ list-style: none;
 body {
 background: red;
 color: white;
+margin: 0px;
+padding: 0px;
 }
 p{ font-size: 25px; }
 h1 { color: red; }
