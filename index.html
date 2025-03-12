@@ -5,15 +5,21 @@
         <title> мой первый сайт </title>
 </head>
 <header>
-    <div> <!-- контейнер для тегов и контента-->
-        <ol> <!--Список элементов -->
-            <h3> Топ языков программирования</h3>
-            <li> phyton </li> <!--Перечень списка строка -->
-            <li> c++ </li> <!--Перечень списка строка -->
-            <li> sql </li> <!--Перечень списка строка -->
-            <li> c# </li> <!--Перечень списка строка -->
-            <li> rubi </li> <!--Перечень списка строка -->
-        </ol>
+    <nav id ='menu1'>
+         <ul> <!--Список элементов -->
+
+                <li> <a href='index.html">главная </a></li> <!--Перечень списка строка -->
+                <li><a href='#'> проекты </a></li> <!--Перечень списка строка -->
+                <li><a href='#'> блог </a></li> <!--Перечень списка строка -->
+                <li><a href='#'> о нас </a></li> <!--Перечень списка строка -->
+                <li><a href='#'>контакты </a></li> <!--Перечень списка строка -->
+         </ul>
+    </nav>
+</header>
+
+<body> <!-- Шапка сайта. нужна для навигации-->
+<div> <!-- контейнер для тегов и контента-->
+
 
     </div>
     <ol style='border: 2px solid black; border-radius: 30px;'> <!-- контейнер для тегов
@@ -28,23 +34,30 @@
      <div> style='border: 2px solid black; border-radius: 30px;'> <!-- контейнер для тегов
         <ol> <!--Список элементов -->
             <h3> Правила работы с HTML </h3>
-            <li> phyton </li> <!--Перечень списка строка -->
-            <li> c++ </li> <!--Перечень списка строка -->
-            <li> sql </li> <!--Перечень списка строка -->
-            <li> c# </li> <!--Перечень списка строка -->
-            <li> rubi </li> <!--Перечень списка строка -->
+            <li> Все пробелы, табуляция и начало новых строк преобразуются в обычный пробел </li> <!--Перечень списка строка -->
+            <li> Весь код должен быть отформатирован в виде тегов разметки. </li> <!--Перечень списка строка -->
+            <li> Если у элементов нет содержимого, то закрывающий тег ему НЕ НУЖЕН. </li> <!--Перечень списка строка -->
+            <li> Всегда должны быть теги: html, head, title, body.
+            Остальные теги добавляются по наполнению сайта</li> <!--Перечень списка строка -->
+            <li> Всегда выполнять правило матрешки </li> <!--Перечень списка строка -->
+          <li> Текстовые блоки и значения атрибутов всегда берутся в кавычки. </li> <!--Перечень списка строка -->
+          <li> Всегда комментируем, сохраняем прогресс, проверяем. </li> <!--Перечень списка строка -->
+          <li> Атрибуты (свойства) тега - является уникальным, называть так тег,
+          давать имя, обращаться к нему - Нельзя!</li> <!--Перечень списка строка -->
         </ol>
 
     </div>
-</header>
-<body> <!-- Шапка сайта. нужна для навигации-->
+
+
+
+
 <h1> Hello Wolrd!!!</h1> <!-- Заголовок с размером-->
 <h2> Hello Wolrd!!!</h2>
 <h3> Hello Wolrd!!!</h3>
 <h4> Hello Wolrd!!!</h4>
 <h5> Hello Wolrd!!!</h5>
 <h6> Hello Wolrd!!!</h6>
-<p> <!--Параграфффф -->
+<p id = 'p1'> <!--Параграфффф -->
     <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </b> Quisque ornare quam eu sem gravida euismod.
     Nam placerat sem quis quam rutrum faucibus. Vivamus id tellus non leo tincidunt elementum.
     Pellentesque facilisis tristique erat efficitur elementum. Quisque sit amet semper felis.
@@ -53,13 +66,16 @@
     Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacus nunc, tempor eu purus vel,
     <i> gravida sollicitudin ipsum. Vestibulum turpis nisl, posuere in iaculis ut, venenatis ornare purus. </i>
 </p>
-<p>
+<hr>
+<p id = 'p2'>
     <b>Fusce lobortis magna a felis tincidunt, et luctus felis semper. </b> Maecenas malesuada justo ac aliquet eleifend.
     Ut condimentum luctus leo et hendrerit. Nullam varius justo ut magna laoreet faucibus. Sed justo leo, molestie eget efficitur et, dictum in dui.
     Nullam sed ultricies ipsum. Nullam vel placerat metus. Nullam maximus ex nec ipsum auctor ullamcorper. Vivamus tempor ut lorem aliquam viverra.
     Morbi ac leo sit amet neque efficitur semper mollis sit amet nisi. Nam suscipit lorem nec tellus facilisis, efficitur ornare orci porta.
 </p>
-<p>
+<hr>
+
+<p class='p3'>
    <b>Maecenas id diam lectus. Morbi eu nibh at felis sagittis maximus at vel ligula. </b>
     Vivamus eleifend urna a libero gravida, id luctus dui volutpat. Aliquam egestas nec sem id eleifend.
     Phasellus eget sapien eget erat sollicitudin auctor ullamcorper efficitur ligula. Integer
