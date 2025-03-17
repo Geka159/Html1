@@ -1,0 +1,39 @@
+#zad1{
+background:#9F2B68;
+margin: 5px;
+padding: 2px;
+}
+#zad1 ul{
+    background: #AB274F;
+    list-style-type:decimal;
+    padding: 2px;
+}
+#zad1 ul li{
+    color: white;
+    background:#CD9575;
+    Border: 1px solid #fff;
+    font-size: 14px;
+    margin: 5px;
+}
+#zad1 ul li span{
+    color: white;
+    background: yellow;
+}
+/*Задание 2 */
+#zad2 ul li{
+list-style-type: none;
+}
+#zad2 ul li:before{
+    content: "■";
+}
+.line1{
+text-decoration: line-through;
+color:black;}
+.line1:before{
+content: "☑️";
+
+}
+#zad2 ul li:after{
+    color: black;
+    content: "✕"
+}
