@@ -1,6 +1,6 @@
 
 /*оформление меню */
-#menu1{
+.menu1, .menuFooter{
 width: auto;
 display: block;
 margin: 0 auto 0px;
@@ -11,14 +11,21 @@ border-bottom: 4px solid #FFAB51;
 margin: 0px;
 padding: 0px;
 }
-#menu1 ul{
+ .menuFooter ul{
+list-style: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0;
+}
+.menu1 ul{
 list-style: none;
     display: flex;
     margin: 0px;
     padding: 0px;
     padding-left: 0;
-    }
-#menu1 ul li{
+}
+.menu1 ul li, menuFooter ul li{
     width: 75px;
     height: 30px;
     font-size: 18px;
@@ -30,10 +37,10 @@ list-style: none;
     margin: 0;
     display: inline-block;
 }
-#menu1 ul li:hover{
+.menu1 ul li:hover, .menuFooter ul li:hover{
 background: #A9A9A9;
 }
-#menu1 ul li a{
+.menu1 ul li a, .menuFooter ul li a{
 text-decoration: none;
 }
 
@@ -55,6 +62,37 @@ h3 { color: yellow; }
 h4 { color: green; }
 h5 { color: blue; }
 h6 { color: #f08080; }
+
+.post{
+    padding:30px;
+    background: 1px solid black;
+    border-radius: 30px;
+}
+.alignright{
+    float: left;
+    margin-left: 15px;
+}
+.alignleft{
+    float: right;
+    margin-right: 15px;
+}
+.post img{
+border: 6px double #cecece;
+border-radius: 30px;
+/*
+width -
+height -
+sizes -  размеры страницы для разных макетов изображения,
+при разных разрешения экрана
+srcset - указывает набор возможных отображений
+для отображения в браузере (адрес, ширина, плотность пикселей)
+imap - указатель сервной карты-изображения, к которой можно привязать ссылки
+usemap - связывает картинку с картой изображения при помощи тега <map>
+Применяются изображения формата JPEG, GIF, PNG, PNG-S, 24, 32,
+APNG, SVG, WEB BMP, ICO, fav
+*/
+}
+
 /*Свойства для абзацев */
 /*Обращение к id */
 #p1{
@@ -82,4 +120,16 @@ writing-mode: horizontal-tb; /* Горизонтальное сверху вни
 .p3 {
 white-space: pre-line;
 writing-mode: vertical-lr;
+}
+/*НАСТРОЙКА СТИЛЯ ДЛЯ ФУТЕРА*/
+.footer-columns{
+display: flex;
+}
+.footer-column{
+    flex:33%;
+    margin: 20px;
+}
+footer{
+    background: #CD9575;
+    padding: 10px;
 }
