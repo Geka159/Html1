@@ -1,0 +1,13 @@
+.c1{
+    background: black;
+    width: 80px;
+    height: 6px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+ul li{
+margin:20px;
+}
